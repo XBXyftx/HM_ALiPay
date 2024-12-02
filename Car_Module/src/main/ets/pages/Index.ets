@@ -6,6 +6,7 @@ struct Index {
   build() {
     Column() {
       Text('打车模块')
+        .fontSize(30)
     }
     .height('100%')
     .width('100%')
