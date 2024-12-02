@@ -1,0 +1,28 @@
+{
+  "module": {
+    "name": "Car_Module",
+    "type": "feature",
+    "description": "$string:module_desc",
+    "mainElement": "Car_ModuleAbility",
+    "deviceTypes": [
+      "phone",
+      "tablet",
+      "2in1"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "Car_ModuleAbility",
+        "srcEntry": "./ets/car_moduleability/Car_ModuleAbility.ets",
+        "description": "$string:Car_ModuleAbility_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:Car_ModuleAbility_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      }
+    ]
+  }
+}
