@@ -20,6 +20,9 @@ struct Index {
             url:'pages/getMoney'
           })
         })
+      Button('去社区')
+        .width('80%')
+        .height(50)
     }
     .height('100%')
     .width('100%')
