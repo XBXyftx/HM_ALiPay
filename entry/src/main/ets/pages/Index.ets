@@ -23,6 +23,11 @@ struct Index {
       Button('去社区')
         .width('80%')
         .height(50)
+        // .onClick(()=>{
+        //   router.pushUrl({
+        //     url:'pages/SocailIndexPage'
+        //   })
+        // })
     }
     .height('100%')
     .width('100%')

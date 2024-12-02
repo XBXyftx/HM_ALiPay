@@ -17,7 +17,7 @@
         "name": "EntryAbility",
         "srcEntry": "./ets/entryability/EntryAbility.ets",
         "description": "$string:EntryAbility_desc",
-        "icon": "$media:layered_image",
+        "icon": "$media:tutu",
         "label": "$string:EntryAbility_label",
         "startWindowIcon": "$media:startIcon",
         "startWindowBackground": "$color:start_window_background",
@@ -40,7 +40,18 @@
         "icon": "$media:layered_image",
         "label": "$string:SocialAbility_label",
         "startWindowIcon": "$media:startIcon",
-        "startWindowBackground": "$color:start_window_background"
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ]
       }
     ],
     "extensionAbilities": [
